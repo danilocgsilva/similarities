@@ -53,5 +53,11 @@ class CompareTests(unittest.TestCase):
         self.assertEquals(0, value_to_test)
 
 
+    def test_return_over_90_strength_similar_strings_and_below_100(self):
+
+        value1 = "This is a string that is very"
+        value2 = "This is a string that is very similar"
+
+
 if __name__ == '__main__':
     unittest.main()
