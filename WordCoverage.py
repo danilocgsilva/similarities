@@ -1,3 +1,3 @@
-class WordCorevage:
-    def get_index(self) -> float:
+class WordCoverage:
+    def get_index(self, value1: float, value2: float) -> float:
         return 100
